@@ -1,0 +1,668 @@
+/* MEDIA QUERIES */
+
+/*Escritorio*/
+@media (min-width: 1199.98px) {
+
+  
+  /* body > nav {
+    display: flex;
+    flex-direction: row;
+  } */
+
+div.sticky > nav > img{
+    /* width: 7%; */
+    height: 42%;
+    /* padding-left: 9%; */
+    padding-top: 1%;
+  }
+
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    /* padding: 5px; */
+    border-bottom: 1px solid #dbdbdb;
+    background-color: white;
+  }
+
+ div.sticky > nav > div.input-icons > input{
+  height: 32%;
+  }
+
+  .input-field{
+    background-color: white; 
+    border: solid 1px #dbdbdb;
+    text-align: center;
+    font-weight: 100;
+    border-radius: 2px;
+    padding: 3%;
+    width: 120%;
+  }
+
+  .fa-search:before {
+    content: "\f002";
+    padding-left: 500%;
+    position: relative;
+    color: #979191;
+    font-size: 70%;
+    top: 21px;
+    left: 17px;
+}
+
+div.info-perfil > div.imagen-perfil{
+  padding-right: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+body > div.info-perfil > div.lista-perfil > p{
+  padding-top: 5%;
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+}
+
+#first-list > li:nth-child(1) > p{
+  display: flex;
+  flex-direction: row;
+  /* padding-top: 5%; */
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  padding-left: 15%;
+}
+
+body > div.info-perfil{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #dbdbdb;
+  padding-left: 16%;
+}
+
+body > div.info-perfil > div.boton-perfil{
+  padding-top: 2%;
+  padding-left: 3%;
+}
+
+#boton-profile{
+  font-size: 120%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  background-color: white;
+  border: #dbdbdb solid 1px;
+  border-radius: 6px;
+  padding: 6%;
+  /* width: 125%; */
+}
+
+body > div.info-perfil > div.lista-perfil > div > ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+/* ::placeholder{
+   
+  padding: 10%;
+} */
+
+
+  body > div.sticky > nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  div.sticky > nav > div.nav-image {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #first-list > li:nth-child(2) > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 16%;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  #first-list > li:nth-child(2) > ul > li:nth-child(2){
+    padding-left: 16%;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  #first-list > li:nth-child(2) > ul > li:nth-child(3){
+    padding-left: 16%;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  #first-list{
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  body > div.info-perfil > button{
+    margin-left: 7%;
+    margin-top: 2.9%;
+  }
+
+  #btn-perfil{
+    display: flex;
+    height: 25%;
+    padding: 0.5%;
+    /* border: 1px #dbdbdb; */
+    font-size: 120%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    justify-content: center;
+    font-size: medium;
+    background-color: white;
+    border: #dbdbdb solid 1px;
+    border-radius: 6px;
+    /* padding: 6%; */
+    width: 10%;
+
+  }
+
+  div.nav-list > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  div.nav-list > ul > li > img {
+    padding: 0px 20px 0px 20px;
+  }
+
+  body > div.lista-opciones > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    justify-content: space-around;
+    /* margin-left: 9%; */
+  }
+
+  body > div.grid-images{
+    margin-left: 18%;
+  }
+
+  body > div:nth-child(4) > div.grid-images > div.first-grid > div.first-image > img{
+    padding-right: 3.2%;
+  }
+
+  body > div:nth-child(4) > div.grid-images > div.second-grid > div.first-image > img{
+    padding-right: 3.2%;
+  }
+
+  body > div:nth-child(4) > div.grid-images{
+    padding-left: 15%;
+  }
+
+  body > div:nth-child(4) > div.grid-images > p{
+    padding-left: 10%;
+    padding-top: 10%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+  }
+
+  body > div:nth-child(4) > div > p{
+    text-align: center;
+  }
+
+  #parraf{
+    font-weight: 400;
+  }
+
+  body > div:nth-child(4) > div > div.download-app{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20%;
+    margin-right: 20%;
+    position: relative;
+    padding-left: 40%;
+    
+  }
+
+  body > div:nth-child(4) > div > div.download-app > img:nth-child(1){
+    padding-right: 5%;
+  }
+
+  body > div:nth-child(4) > div > div.download-app{
+    position: absolute;
+
+  }
+
+  #parraf{
+    position: absolute;
+    padding-left: 33%;
+  }
+
+  body > div.lista-opciones > ul > li:nth-child(1){
+    padding-left: 20%;
+  }
+
+  body > div.lista-opciones > ul > li:nth-child(4){
+    padding-right: 25%;
+  }
+
+  .grid-images{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+  }
+
+  body > div.grid-images > div.first-grid > div.first-image > img{
+    padding-right: 15%;
+  }
+
+  body > div.grid-images > div.second-grid > div.first-image > img{
+    padding-right: 15%;
+  }
+
+  body > div:nth-child(4) > footer > div{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: #144473;
+    align-content: center;
+    padding-top: 3%;
+    justify-content: space-around;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-two > ul{
+    padding-left: 0%;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-one > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-two > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-three > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-fourt > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-one > ul > li:nth-child(1){
+    padding-right: 5%;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-one > ul > li:nth-child(2){
+    padding-right: 5%;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-one > ul > li:nth-child(3){
+    padding-right: 5%;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-one > ul > li:nth-child(4){
+    padding-right: 5%;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-two > ul > li:nth-child(1){
+    padding-right: 5%;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-two > ul{
+    padding-left: 25%;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-two > ul > li:nth-child(2){
+    padding-right: 5%;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-three > ul > li:nth-child(1){
+    padding-right: 5%;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-three > ul > li:nth-child(2){
+    padding-right: 5%;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-three > ul > li:nth-child(3){
+    padding-right: 5%;
+  }
+
+  #copyright{
+    color: #8e8e8e;
+  }
+
+}
+/*Fin Escritorio*/
+
+
+
+/* Tablet */
+/*Portrait*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {
+  body {    
+  
+    /* background: orange; */
+  }
+  body > div.sticky > nav > div.input-icons{
+    display: none;
+  }
+
+  body > div.sticky > nav > div.nav-list > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    /* padding-left: 60%; */
+  }
+
+  body > div.sticky > nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+  }
+
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    /* padding: 5px; */
+    border-bottom: 1px solid #dbdbdb;
+    background-color: white;
+  }
+
+  body > div.sticky > nav > img{
+    width: 22%;
+    height: 18%;
+    padding-top: 2%;
+    padding-right: 15%;
+  }
+
+  body > div.sticky > nav > div.nav-list > ul > li:nth-child(1) > img{
+    padding-right: 45%;
+  }
+
+  body > div.sticky > nav > div.nav-list > ul > li:nth-child(2) > img{
+    padding-right: 45%;
+  }
+
+  body > div.sticky > nav > div.nav-list > ul > li:nth-child(3) > img{
+    padding-right: 45%;
+  }
+  body > div.sticky > nav > div.nav-list > ul > li:nth-child(4) > img{
+    padding-right: 45%;
+  }
+
+  body > div.sticky > nav > div.nav-list > ul > li:nth-child(5) > img{
+    padding-right: 45%;
+  }
+
+  body > div.info-perfil{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+  }
+
+  #btn-perfil{
+    display: flex;
+    height: 20%;
+    padding: 0.5%;
+    /* font-size: 100%; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    justify-content: center;
+    font-size: medium;
+    background-color: white;
+    border: #dbdbdb solid 1px;
+    border-radius: 6px;
+  }
+
+  body > div.info-perfil > button{
+    margin-left: 7%;
+    margin-top: 2.9%;
+  }
+
+  #first-list{
+    list-style: none;
+  }
+
+  #first-list > li:nth-child(2) > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  #first-list > li:nth-child(2) > ul > li:nth-child(1){
+    padding-right: 5%;
+  }
+
+  body > div.info-perfil > div.imagen-perfil > img{
+    width: 90px;
+    padding-left: 15%;
+  }
+
+  #first-list > li:nth-child(1) > p{
+    padding-left: 16%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  #first-list > li:nth-child(2) > ul > li:nth-child(2){
+    padding-right: 5%;
+  }
+
+  body > div.lista-opciones > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+  }
+
+  body > div:nth-child(4) > div > div.first-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  body > div:nth-child(4) > div > div.second-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  body > div:nth-child(4) > div > div.thirth-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #parraf{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  body > div:nth-child(4) > div > div.download-app{
+    display: flex;
+    justify-content: center;
+  }
+
+  body > div.info-perfil > div.imagen-perfil > img{
+    padding-top: 5%;
+  }
+
+  body > div:nth-child(4) > footer > div > ul{
+    display: flex;
+    list-style: none;
+  }
+
+  body > div:nth-child(4) > footer > div{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: #144473;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-one > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    padding-top: 5%;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-two > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-three > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-fourt > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+  }
+
+  body > div:nth-child(4) > div > div.download-app > img:nth-child(2){
+    padding-left: 2%;
+  }
+
+  body > div:nth-child(4) > div > div.first-grid > div.first-image > img{
+    padding-right: 3%;
+  }
+
+  body > div:nth-child(4) > div > div.first-grid > div.second-image > img{
+    padding-right: 3%;
+  }
+
+  body > div:nth-child(4) > div > div.second-grid > div.first-image > img{
+    padding-right: 3%;
+  }
+
+  body > div:nth-child(4) > div > div.second-grid > div.second-image > img{
+    padding-right: 3%;
+  }
+
+  body > div:nth-child(4) > div > div.thirth-grid > div.first-image > img{
+    padding-right: 3%;
+  }
+
+  body > div:nth-child(4) > div > div.thirth-grid > div.second-image > img{
+    padding-right: 3%;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-one > ul > li:nth-child(1){
+    padding-right: 3%;
+  }
+  body > div:nth-child(4) > footer > div > div.footer-list-one > ul > li:nth-child(2){
+    padding-right: 3%;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-one > ul > li:nth-child(3){
+    padding-right: 3%;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-one > ul > li:nth-child(5){
+    padding-left: 3%;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-two > ul > li:nth-child(1){
+    padding-right: 3%;
+  }
+
+  body > div:nth-child(4) > footer > div > div.footer-list-two > ul > li:nth-child(2){
+    padding-right: 3%;
+  }
+}
+
+
+/* FINAL Tablet */
+
+/*landscape*/
+@media (min0-width: 991.98px) and (max-width: 1199.98px) and (orientation: landscape) {
+  body {
+    background: blue;
+  }
+}
+/*fin tablet*/
+
+/*movil*/
+/*Portrait*/
+/*Default*/
+@media (max-width: 575.98px) and (orientation: portrait) {
+  body {
+    background: green;
+  }
+  /* div.sticky > nav > div.nav-list > ul{
+        display: flex;
+        list-style: none;
+    } */
+
+  /* body > div.sticky > nav > div {
+    display: flex;
+    flex-direction: row;
+  } */
+
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid #dbdbdb;
+    background-color: white;
+  }
+
+  body > div.sticky > nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+  }
+
+  body > div.sticky > nav > div > div.nav-image > img {
+    width: 90%;
+    padding-top: 7%;
+    padding-left: 2%;
+    margin-top: 2%;
+  }
+
+  body > div.sticky {
+    padding: 2%;
+  }
+}
+/*landscape*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation: landscape) {
+  body {
+    background: black;
+  }
+}
+/*fin movil*/
